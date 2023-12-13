@@ -61,3 +61,4 @@ if uploaded_file is not None and page_input:
                     for image in images:
                         image_bytes = page.extract_image(image)['image']
                         st.image(image_bytes, use_column_width=True)
+                        # checking git commits
